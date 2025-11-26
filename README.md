@@ -1,5 +1,7 @@
 # AraFinNews: The Arabic Financial News Dataset (212K)
 
+## For the json file format please check our [AraFinNews GitHub repo](https://github.com/ArabicNLP-UK/AraFinNews)
+
 **AraFinNews** is the largest open dataset of Arabic financial news, containing **212,000 full-length articles** collected from [Argaam.com](https://www.argaam.com/) — one of the most reputable financial media outlets in the Arab world.  
 The dataset provides structured, machine-readable text and metadata for use in research on **Arabic financial language**, **abstractive summarisation**, **event extraction**, and **domain-specific language modelling**.
 
