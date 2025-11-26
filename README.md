@@ -29,9 +29,9 @@ Comparable to the **CNN/DailyMail** dataset for English, AraFinNews offers an Ar
 
 In addition to the original ID lists, the repository now includes **fully populated split files**:
 
-- `train.csv` — 80% of the dataset  
-- `validation.csv` — 10%  
-- `test.csv` — 10%
+- `AraFinNews_train.csv` — 80% of the dataset  
+- `AraFinNews_validation.csv` — 10%  
+- `AraFinNews_test.csv` — 10%
 
 These files contain **the complete article and headline rows**, making them directly compatible with the Hugging Face Dataset Viewer and eliminating the need to reconstruct splits manually.
 
@@ -72,11 +72,11 @@ The dataset is released strictly for **non-commercial research and educational u
 
     import pandas as pd
 
-    train = pd.read_csv("train.csv")
-    val = pd.read_csv("validation.csv")
-    test = pd.read_csv("test.csv")
+    train = pd.read_csv("AraFinNews_train.csv")
+    val = pd.read_csv("AraFinNews_validation.csv")
+    test = pd.read_csv("AraFinNews_test.csv")
 
-### (Legacy) Load splits using ID files
+### (Optional) Load splits using ID files
 
     import pandas as pd
 
